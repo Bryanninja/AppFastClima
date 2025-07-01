@@ -1,0 +1,172 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html, body {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url('assets/Ativo 1.png');
+  opacity: 0.5;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+}
+.videoFundo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.searchHeader{
+  width: 80%;
+  margin: 20px auto !important;
+  border-radius: 20px;
+  padding: 16px 38px;
+  background: rgb(255, 255, 255);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 8px 32px rgba(151, 68, 68, 0.089);
+}
+
+.headerLogo,.barSearch{
+width: 50%;
+}
+
+.center{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+
+.barSearch [name=climaSearch]{
+  padding-left: 1rem;
+  background-color:#F0F0F0 ;
+  height: 2rem;
+  width: 80%;
+  border: 0;
+  border-end-start-radius:2rem;
+  border-top-left-radius:2rem ;
+}
+
+.barSearch [type=submit]{
+  background:linear-gradient(to right ,#3c30e6, #536ff3, #78abfb);
+  height: 2rem;
+  width: 20%;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  border-end-end-radius:20px ;
+  border-start-end-radius: 20px;
+}
+
+.widgetTemp{
+  margin-top: 100px ;
+  padding: 40px 0px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+
+.boxTemp{
+  position: relative;
+  text-align: right;
+  padding-right: 2rem;
+  background: linear-gradient(to right, #3c30e6, #536ff3, #78abfb);
+  width: 25%;
+  height: 200px;
+  border-radius: 20px;
+  overflow: visible;
+}
+
+.boxTemp h2{
+  color: white;
+  font-size: 8rem;
+}
+
+.boxTemp p{
+
+  margin-top: -1rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.cloudIcon{
+  position: absolute;
+  top: -40px;
+  transform: translateX(-50%);
+  width: 100px;
+  filter: drop-shadow(0 5px 10px rgba(0,0,0,0.2));
+  z-index: 2;
+}
+
+.erroMsg {
+  padding: 8rem;
+  width: 80%;
+  margin-top: 100px;
+  background-color: #ffdddd;
+  color: #cc0000;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.infoMsg {
+  padding: 8rem;
+  width: 80%;
+  margin-top: 100px;
+  background-color: #ffffff;
+  color: #555;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.sugestoesLista {
+  list-style: none;
+  background-color:#ffffff ;
+  border-bottom: 1px solid #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+  margin-top: -40px;
+  border-radius: 20px;
+  position: absolute;
+  width: 40%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.sugestaoItem {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.sugestaoItem:hover {
+  background-color: #eee;
+}
+
