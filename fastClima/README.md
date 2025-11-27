@@ -1,12 +1,29 @@
-# React + Vite
+# 🌦️ FastClima
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FastClima é um aplicativo web desenvolvido em React que permite consultar o clima atual de qualquer cidade do mundo. Ele utiliza a API do OpenWeatherMap para dados meteorológicos e a GeoDB Cities para sugestões automáticas enquanto o usuário digita.
 
-Currently, two official plugins are available:
+## 🚀 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Busca de clima por nome da cidade
+- Sugestões de cidades enquanto digita
+- Exibição de temperatura, sensação térmica e clima
+- Interface moderna com imagem/vídeo de fundo
+- Tratamento de erros de busca
 
-## Expanding the ESLint configuration
+## 🔧 Tecnologias utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- JavaScript (ES6+)
+- OpenWeatherMap API
+- GeoDB Cities API
+- HTML5 + CSS3
+
+## 🖼️ Interface
+
+O projeto conta com uma interface limpa e responsiva, usando efeitos visuais como fundo com imagem e blur nos cards, focado em boa usabilidade e experiência do usuário.
+
+## 💻 Como rodar o projeto localmente
+
+1. Clone este repositório:
+```bash
+git clone https://github.com/seuusuario/fastclima.git
