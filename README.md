@@ -31,7 +31,7 @@ Diferente de apps de clima comuns, foquei na **Experiência do Usuário (UX)**: 
 ---
 
 ### Desenvolvedor
-(Feito por Álex bryan https://www.linkedin.com/in/alexbryannt/)
+(Feito por Álex Bryan: https://www.linkedin.com/in/alexbryannt/)
 
 ### 💻 Como rodar o projeto
 
@@ -48,11 +48,3 @@ npm install
 # Rode o projeto:
 npm run dev
 (A aplicação abrirá no seu navegador, geralmente em http://localhost:5173)
-
-
-
-
-
-
-
-
