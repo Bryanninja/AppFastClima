@@ -6,7 +6,8 @@
 
 ![FastClimaDemonstração](https://github.com/user-attachments/assets/28fd6229-5574-4da5-8c07-ddd3ac7dd644)
 
-(Acesse o projeto online: https://fast-clima.vercel.app/)
+(Acesse o projeto online: https://fast-clima.vercel.app/) 
+
 
 ## 📄 Sobre o Projeto
 
@@ -27,8 +28,10 @@ Diferente de apps de clima comuns, foquei na **Experiência do Usuário (UX)**: 
 * **CSS 3:** Estilização customizada e responsiva.
 * **OpenWeatherMap API:** Fonte dos dados meteorológicos.
 * **Axios/Fetch:** Para requisições assíncronas.
-
 ---
+
+### Desenvolvedor
+(Feito por Álex bryan https://www.linkedin.com/in/alexbryannt/)
 
 ### 💻 Como rodar o projeto
 
@@ -46,4 +49,10 @@ npm install
 npm run dev
 (A aplicação abrirá no seu navegador, geralmente em http://localhost:5173)
 
-(Feito por Álex bryan https://www.linkedin.com/in/alexbryannt/)
+
+
+
+
+
+
+
