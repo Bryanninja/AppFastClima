@@ -47,4 +47,5 @@ npm install
 
 # Rode o projeto:
 npm run dev
-(A aplicação abrirá no seu navegador, geralmente em http://localhost:5173)
+
+# (A aplicação abrirá no seu navegador, geralmente em http://localhost:5173)
