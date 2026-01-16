@@ -12,12 +12,12 @@
 
 O **FastClima** é uma aplicação React focada no consumo de dados externos via API. O objetivo principal deste projeto foi praticar a integração com o **OpenWeatherMap** e criar uma interface que reage aos dados recebidos.
 
-Diferente de apps de clima comuns, foquei na **Experiência do Usuário (UX)**: ao buscar uma cidade, não apenas os números mudam, mas o ambiente visual (vídeo de fundo) se adapta para refletir o clima local (Sol, Chuva, Nublado, etc.), criando uma imersão imediata.
+Diferente de apps de clima comuns, foquei na **Experiência do Usuário (UX)**: ao buscar uma cidade, não apenas os números mudam, mas o ambiente visual (vídeo de fundo) se adapta para refletir o clima local (Sol, Chuva, Nublado, etc.), criando uma imersão imediata oque ainda está em desenvolvimento, oque será feito em breve!
 
 ## ✨ Funcionalidades
 
 * **📡 Consumo de API em Tempo Real:** Dados precisos de temperatura, umidade e condição climática.
-* **🎥 Background Dinâmico:** O vídeo de fundo muda automaticamente baseado na resposta da API.
+* **🎥 Background Dinâmico:** O vídeo de fundo fica em movimento.
 * **🔎 Sugestões Inteligentes:** O campo de busca auxilia o usuário enquanto ele digita.
 * **🌍 Tradução de Dados:** Tratamento dos dados brutos da API para exibição amigável em Português.
 
@@ -36,21 +36,14 @@ Diferente de apps de clima comuns, foquei na **Experiência do Usuário (UX)**: 
 ```bash
 git clone [https://github.com/Bryanninja/fastclima.git](https://github.com/Bryanninja/fastclima.git)
 
-Entre na pasta do projeto:
+# Entre na pasta do projeto:
+cd fastClima
 
-Bash
-
-cd fastclima
-Instale as dependências:
-
-Bash
-
+# Instale as dependências:
 npm install
-Rode o projeto:
 
-Bash
-
+# Rode o projeto:
 npm run dev
 (A aplicação abrirá no seu navegador, geralmente em http://localhost:5173)
 
-<p align="center"> Feito com 💜 por <a href="https://www.linkedin.com/in/alexbryannt/">Álex Bryan</a> </p>
+Feito por https://www.linkedin.com/in/alexbryannt/" Álex Bryan
