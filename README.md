@@ -46,4 +46,4 @@ npm install
 npm run dev
 (A aplicação abrirá no seu navegador, geralmente em http://localhost:5173)
 
-Feito por https://www.linkedin.com/in/alexbryannt/" Álex Bryan
+(Feito por Álex bryan https://www.linkedin.com/in/alexbryannt/)
